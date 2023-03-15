@@ -1,0 +1,30 @@
+{
+  "name": "shush",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "ionic:build": "npm run build",
+    "ionic:serve": "npm run dev"
+  },
+  "dependencies": {
+    "@capacitor/android": "4.7.0",
+    "@capacitor/app": "4.1.1",
+    "@capacitor/cli": "4.7.0",
+    "@capacitor/core": "4.7.0",
+    "@capacitor/haptics": "4.1.0",
+    "@capacitor/keyboard": "4.1.1",
+    "@capacitor/preferences": "4.0.2",
+    "@capacitor/status-bar": "4.1.1",
+    "pinia": "^2.0.32",
+    "sass": "^1.59.2",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.1.4"
+  }
+}

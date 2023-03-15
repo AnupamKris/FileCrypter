@@ -1,0 +1,7 @@
+{
+  "name": "shush",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}
